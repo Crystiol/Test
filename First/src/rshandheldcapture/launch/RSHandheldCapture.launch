@@ -1,0 +1,3 @@
+<launch>
+    <node name="Viewer" pkg="RSHandheldCapture" type="Viewer" output="screen" />
+</launch>
