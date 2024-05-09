@@ -15,11 +15,6 @@ make && cp libRSSceneViewer.so ../../lib
 cd ..
 rm -Rf build
 
-# should work for Ubuntu 20.04
-#cd "$PROJDIR/src/livox_ros_driver2/"
-#source /opt/ros/noetic/setup.sh
-#./build.sh ROS1
-
 cd "$PROJDIR"
 catkin_make -DCATKIN_WHITELIST_PACKAGES="rshandheld_capture"
 
